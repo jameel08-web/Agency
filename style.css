@@ -134,8 +134,9 @@ ul.nestednav:hover a{
    box-shadow: 0 0 5px 2px #b0641c;
   
 }
-.form{
+.form {
     width: fit-content !important;
+   
 }
 .nesinput:focus{ 
     outline: black !important;
@@ -198,6 +199,11 @@ button.porbtn{
     margin-bottom: 20px !important;
 }
 
+.form {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
 }
 
 
@@ -245,10 +251,18 @@ button.porbtn{
     color: #b0641c !important;
     width: fit-content;
 }
-
+.inputdiv{
+    flex-direction: column !important;
+}
+textarea{
+    width: 100% !important;
+}
+.form {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 
-
+}
 
 @media (max-width: 550px) {
     .herotext h1{
