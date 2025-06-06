@@ -126,7 +126,7 @@ ul.nestednav:hover a{
     border: 2px solid lightgrey;
 }
 .searchfeild{
-    width: 280px;
+    width: fit-content;
 }
 
 .searchfeild:focus {
