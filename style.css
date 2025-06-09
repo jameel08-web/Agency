@@ -1,10 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.container-fluid {
+  width: 100%;}
+
 .navbar{
-    padding-right: 200px;
+    padding-right: 00px;
      position: fixed;
      top: 0;
     width: 100%;
     z-index: 1030;
     background-color: white;
+    overflow: hidden;
 }
 
 .nav-active {
@@ -150,13 +159,14 @@ ul.nestednav:hover a{
 
 
 
-@media (max-width: 1200px){
-    .navbar{
+@media (max-width: 992px){
+    /* .navbar{
     padding-right: 80px;
-}
+} */
 .featurework h1{
     padding-left: 40px !important;
 }
+
 
 
     .itemtxt{
@@ -182,8 +192,19 @@ ul.nestednav:hover a{
 }
 .footerbtn{
     width: 50% !important;
-    margin: 0px !important;
-   
+    margin: 0px !important;  
+}
+
+
+.text > h1{
+    font-size: 60px;
+    margin-top: 60px;
+    padding-left: 2px !important;
+    
+}
+
+.navbar{
+    padding-right: 0 !important;
 }
 /* end index.html */
 
@@ -195,8 +216,9 @@ ul.nestednav:hover a{
 .team{
     gap: 20px !important;
 }
-button.porbtn{
+.porbtn{
     margin-bottom: 20px !important;
+    width: fit-content !important;
 }
 
 .form {
@@ -219,7 +241,7 @@ button.porbtn{
     }
 
    .herotext h1{
-    font-size: 50px;
+    font-size: 35px;
 
       
 }
@@ -236,15 +258,27 @@ button.porbtn{
     margin-top: 50px;
 }
 
-.footer{
+/* .footer{
     margin-top: 10px;
   padding: 150px;
-}
+} */
 .footerbtn{
     width: 50% !important;
     margin: 0px !important;
    
 }
+.navbar{
+    padding-right: 0 !important;
+}
+.navbar-brand{
+    margin-left: 0px !important;
+}
+.text > h1{
+    font-size: 40px;
+    margin-top: 60px; 
+    padding-left: 0px !important;
+}
+
 /* end index.html */
 .nav-active {
     border-bottom: 3px solid #b0641c !important;
@@ -265,19 +299,27 @@ textarea{
 }
 
 @media (max-width: 550px) {
-    .herotext h1{
-        font-size: 40px;
-          
-    }
-   .navbar{
-    padding-right: 50px;
-}
+ 
+   /* .navbar{
+    padding-right: 50px;}
+} */
 /* end index.html */
 .nav-active {
     border-bottom: 3px solid #b0641c !important;
     color: #b0641c !important;
     width: fit-content;
 }
-
+.navbar{
+    padding-right: 0px !important;
+}
+.text > h1{
+    font-size: 30px;
+    margin-top: 60px;
+    
+}
+.footer{
+    margin-top: 10px;
+  padding: 70px;
+}
 
 }
