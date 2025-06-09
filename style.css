@@ -2,12 +2,13 @@ body{
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+       overflow-x: hidden;
 }
 .container-fluid {
   width: 100%;}
 
 .navbar{
-    padding-right: 00px;
+    
      position: fixed;
      top: 0;
     width: 100%;
@@ -15,7 +16,9 @@ body{
     background-color: white;
     overflow: hidden;
 }
-
+.navbar-toggler {
+  margin-right: 1rem;
+}
 .nav-active {
     border-bottom: 3px solid #b0641c !important;
     color: #b0641c !important;
@@ -160,9 +163,8 @@ ul.nestednav:hover a{
 
 
 @media (max-width: 992px){
-    /* .navbar{
-    padding-right: 80px;
-} */
+ 
+
 .featurework h1{
     padding-left: 40px !important;
 }
@@ -232,6 +234,8 @@ ul.nestednav:hover a{
 
 
 @media (max-width: 768px) {
+    
+
     .herobtn{
         flex-direction: column;    
     }
@@ -268,8 +272,9 @@ ul.nestednav:hover a{
    
 }
 .navbar{
-    padding-right: 0 !important;
+    overflow: hidden;
 }
+
 .navbar-brand{
     margin-left: 0px !important;
 }
@@ -304,14 +309,14 @@ textarea{
     padding-right: 50px;}
 } */
 /* end index.html */
+
+
 .nav-active {
     border-bottom: 3px solid #b0641c !important;
     color: #b0641c !important;
     width: fit-content;
 }
-.navbar{
-    padding-right: 0px !important;
-}
+
 .text > h1{
     font-size: 30px;
     margin-top: 60px;
